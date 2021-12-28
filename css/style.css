@@ -38,7 +38,7 @@ body {
   color: rgb(204, 190, 190);
 }
 
-.body .section-01 .history-img:after {
+.body section .history-img:after {
   background: #181818;
 }
 
@@ -136,10 +136,6 @@ a:hover {
 
 .full-width {
   width: 100% !important;
-}
-
-.section-02 {
-  padding: 100px 0;
 }
 
 .valign {
@@ -333,7 +329,7 @@ a:hover {
   transition: all 0.5s;
 }
 
-.navbar .navbar-nav .contact {
+.navbar .navbar-nav .active {
   color: #c49b66 !important;
 }
 
@@ -433,12 +429,6 @@ a:hover {
   color: #f2eded;
 }
 
-section#cont04,
-#cont06,
-#cont08 {
-  background-color: #ffffff;
-}
-
 .article-text {
   font-size: 26px;
   color: #101010;
@@ -459,17 +449,19 @@ article h3 {
   margin-bottom: 60px;
 }
 
-section#cont05,
-#cont07 {
-  background-color: #f7f1f1;
-}
 
-.section-02 {
+section {
   overflow: hidden;
   text-align: justify;
+  padding: 100px 0px;
 }
 
-.section-02 .filtering span {
+section:nth-child(even) {
+  background: #e6dab7;
+}
+
+
+section .filtering span {
   padding: 8px 20px;
   margin: 0 5px;
   color: #777;
@@ -481,34 +473,34 @@ section#cont05,
   border-radius: 10px;
 }
 
-.section-02 .filtering .contact {
+section .filtering .contact {
   color: #fff;
   background: #c49b66;
   border-color: #c49b66;
 }
 
-.section-02 .filtering .contact:after {
+section .filtering .contact:after {
   bottom: 0;
   top: calc(100% - 1px);
   opacity: 1;
 }
 
-.section-02 .filtering .contact:before {
+section .filtering .contact:before {
   top: 0;
   opacity: 1;
 }
 
-.section-02 .items {
+section .items {
   padding: 0 15px;
   margin-bottom: 30px;
 }
 
-.section-02 .item-img {
+section .item-img {
   position: relative;
   overflow: hidden;
 }
 
-.section-02 .item-img h5 {
+section .item-img h5 {
   font-size: 18px;
   position: relative;
   -webkit-transform: translateY(15px);
@@ -519,7 +511,7 @@ section#cont05,
   z-index: 5;
 }
 
-.section-02 .item-img h6 {
+section .item-img h6 {
   color: #c49b66;
   font-size: 13px;
   position: relative;
@@ -532,7 +524,7 @@ section#cont05,
   z-index: 5;
 }
 
-.section-02 .item-img .link {
+section .item-img .link {
   position: absolute;
   bottom: 10px;
   right: 10px;
@@ -543,7 +535,7 @@ section#cont05,
   opacity: 0;
 }
 
-.section-02 .item-img-overlay {
+section .item-img-overlay {
   position: absolute;
   top: 5px;
   left: 5px;
@@ -553,8 +545,8 @@ section#cont05,
   z-index: 2;
 }
 
-.section-02 .item-img-overlay:before,
-.section-02 .item-img-overlay:after {
+section .item-img-overlay:before,
+section .item-img-overlay:after {
   content: "";
   position: absolute;
   width: 0;
@@ -564,24 +556,24 @@ section#cont05,
   transition: all 0.4s;
 }
 
-.section-02 .item-img-overlay:before {
+section .item-img-overlay:before {
   left: 0;
   top: 0;
 }
 
-.section-02 .item-img-overlay:after {
+section .item-img-overlay:after {
   right: 0;
   bottom: 0;
 }
 
-.section-02 .item-img-overlay:hover:before,
-.section-02 .item-img-overlay:hover:after {
+section .item-img-overlay:hover:before,
+section .item-img-overlay:hover:after {
   width: 100%;
 }
 
-.section-02 .item-img-overlay:hover h6,
-.section-02 .item-img-overlay:hover h5,
-.section-02 .item-img-overlay:hover .link {
+section .item-img-overlay:hover h6,
+section .item-img-overlay:hover h5,
+section .item-img-overlay:hover .link {
   -webkit-transform: translateY(0);
   transform: translateY(0);
   opacity: 1;
@@ -599,46 +591,15 @@ section#cont05,
   color: #fff;
 }
 
-.section-01.history-img {
-  padding: 0 10px 0 0;
-  position: relative;
-  -webkit-transition: all 0.4s;
-  transition: all 0.4s;
-}
-
-.section-01.history-img:hover {
-  padding: 0 0 0 20px;
-}
-
-.section-01.history-img:hover:after {
-  background: #c49b66;
-  left: 5px;
-  top: -15px;
-  right: 15px;
-  bottom: 15px;
-}
-
-.section-01.history-img:after {
-  content: "";
-  background: #f5f5f5;
-  position: absolute;
-  left: 15px;
-  right: 5px;
-  top: 15px;
-  z-index: -1;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-}
-
-.section-01 p {
+section p {
   margin-bottom: 15px;
 }
 
-.section-01 p span {
+section p span {
   font-weight: 700;
 }
 
-.section-01 .footer-title-social .footer-social-icons span {
+section .social-icons span {
   width: 40px;
   height: 30px;
   line-height: 30px;
@@ -651,13 +612,13 @@ section#cont05,
   color: rgb(121, 121, 121);
 }
 
-.section-01 .footer-title-social .footer-social-icons span:hover {
+section .social-icons span:hover {
   background: #c49b66;
   border-color: #c49b66;
   color: #fff;
 }
 
-.section-01 .button_restaurant {
+section .button_restaurant {
   margin-top: 30px;
 }
 
@@ -860,7 +821,7 @@ footer .email {
       padding: 0px 20px;
     }
 
-    .section-02 {
+    section {
       padding: 20px;
     }
 

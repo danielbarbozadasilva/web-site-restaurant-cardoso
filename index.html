@@ -8,7 +8,7 @@
     <meta name="reply-to" content="daniel80barboza@gmail.com" />
     <meta name="keywords" content="cardoso, restaurante, comida, saúde" />
     <meta name="description"
-        content="Site Cardoso Restaurante (Desenvolvido como projeto final na formação de Desenvolvedor Front-End do Instituto INFNET)" />
+        content="Site Cardoso Restaurante - Desenvolvido como projeto final na formação de Desenvolvedor Front-End do Instituto INFNET)" />
     <meta name="robots" content="index, follow" />
     <meta property="og:title" content="cardoso restaurante" />
     <meta property="og:type" content="website" />
@@ -21,7 +21,6 @@
     <link rel="stylesheet" href="./fontawesome/css/all.min.css" type="text/css">
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 </head>
 
 <body class="body">
@@ -36,7 +35,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link  .contact ive" href="/" data-scroll-nav="1">Home</a>
+                        <a class="nav-link active" href="/" data-scroll-nav="1">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#" data-scroll-nav="2">Nossa História</a>
@@ -73,20 +72,19 @@
         </div>
 
         <div class="arrow">
-            <a href="#" data-scroll-nav="1">
+            <a href="#" data-scroll-nav="2">
                 <i class="fas fa-chevron-down"></i>
             </a>
         </div>
     </header>
 
-    <section class="section-01 section-dish" data-scroll-index="2">
+    <section class="section-dish" data-scroll-index="2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5">
                     <div class="history-img">
                         <img src="img/img-section01-chef.jpg" alt="">
-                        <figure>Chefe - Fábio Duarte
-                        </figure>
+                        <figure>Chefe - Fábio Duarte</figure>
                     </div>
                 </div>
                 <div class="col-lg-7">
@@ -104,7 +102,7 @@
                             Não economizamos na generosidade do nosso serviço ou na qualidade dos nossos ingredientes, e
                             sabemos que a hospitalidade não é um conceito único.</p>
 
-                        <div class="footer-title-social footer-social-icons">
+                        <div class="title-social social-icons">
                             <a href="#0">
                                 <span class="icon"><i class="fab fa-facebook-f"></i></span>
                             </a>
@@ -120,7 +118,7 @@
             </div>
         </div>
     </section>
-    <section class="section-02 section-dish" data-scroll-index="3">
+    <section class="section-dish" data-scroll-index="3">
         <div class="container">
             <div class="row">
                 <div class="section-head">
@@ -152,7 +150,7 @@
         </div>
     </section>
 
-    <section class="section-02 section-dish" data-scroll-index="3">
+    <section class="section-dish" data-scroll-index="3">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -175,7 +173,7 @@
             </div>
     </section>
 
-    <section id="cont07" class="section-02 section-dish" data-scroll-index="3">
+    <section class="section-dish" data-scroll-index="3">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -200,7 +198,9 @@
                 </div>
             </div>
         </div>
+    </section>
 
+    <section>
         <div class="main col-xs-12 col-sm-12 col-md-12 col-lg-12" data-scroll-index="4">
             <article>
                 <h3 class="article-text ">"FALE-NOS DE BISTRO E PENSEMOS: BAIRRO, CASUAL, RÚSTICO. ACHAMOS CARDOSO,
@@ -212,7 +212,8 @@
             </article>
         </div>
     </section>
-    <section class="contact  section-02 bg-img" data-background="img/img-contact.png" data-scroll-index="5">
+
+    <section class="contact bg-img" data-background="img/img-contact.png" data-scroll-index="5">
         <div class="container">
             <div class="row">
                 <div class="section-head">
@@ -275,8 +276,8 @@
     <footer class="container-fluid">
         <div class="row">
             <div class="col-md-4">
-                <div class="redes-sociais">
-                    <h3 class="chamada-rodape">Redes sociais</h3>
+                <div class="social-icons">
+                    <h3 class="title-social">Redes sociais</h3>
                     <div class="icons-redes-sociais">
                         <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
                         <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram-square"></i></a>
@@ -286,7 +287,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <img src="img/logo.png" class="footer-logo" alt="">
+                <img src="img/img-logo.png" class="footer-logo" alt="">
             </div>
             <div class="col-md-4">
                 <div class="info">
@@ -317,10 +318,9 @@
 
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
     <script src="js/scrollIt.min.js"></script>
     <script src="js/javascript-animations.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="js/scripts.js"></script>
 
 </body>
 
