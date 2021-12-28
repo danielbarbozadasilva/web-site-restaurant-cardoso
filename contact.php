@@ -4,7 +4,7 @@ $from = 'Projeto';
 $sendTo = 'danielbarboza56@hotmail.com';
 $subject = 'Olá!';
 $fields = array('name' => 'Name', 'subject' => 'Subject', 'email' => 'Email', 'message' => 'Message');
-$okMessage = 'Obrigado por entrar em contato conosco. Já responderemos!';
+$okMessage = 'Obrigado por entrar em contact conosco. Já responderemos!';
 $errorMessage = 'Erro ao enviar!';
 
 
