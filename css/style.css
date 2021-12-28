@@ -715,54 +715,69 @@ section#cont05,
   font-size: 14px;
 }
 
-.footer-title-social {
+footer {
   background-color: #596665;
   position: center;
   text-align: center;
 }
 
-.footer-title-social h3 {
+footer h3 {
   color: #fff;
   padding-top: 20%;
 }
 
-.footer-social {
+footer.chamada-rodape {
   text-transform: uppercase;
   font-size: 18px;
   font-weight: 700;
   color: #fff;
 }
 
-.footer-icons-social .footer-title-social {
+footer .icons-redes-sociais a {
   font-size: 40px;
   padding: 0px 15px;
   padding-top: 20px;
   color: white;
 }
 
-.footer-title-social .footer-social {
+footer .redes-sociais {
   margin-top: 10px;
   color: white !important;
 }
 
+footer.icons-redes-sociais a {
+  font-size: 40px;
+  padding: 0px 18px;
+  padding-top: 20px;
+  color: white;
+}
 
-.footer-title-social, .footer-social img {
+footer.chamada-info-rodape-main {
+  padding-left: 10px;
+  font-weight: 500 !important;
+}
+
+footer img {
   width: 250px;
   height: 90px;
   margin-top: 70px;
 }
 
-.footer-title-social .footer-social .line-icons {
+footer .chamada-info-rodape-main {
+  font-weight: 500 !important;
+}
+
+footer .line-icons {
   width: 100%;
   padding-bottom: 15px;
 }
 
-.footer-title-social .line-icons i {
+footer .line-icons i {
   color: white;
   font-size: 18px;
 }
 
-.footer-title-social .footer-name-developer {
+footer .nome-footer {
   font-size: 14px;
   color: #ffffff;
   text-transform: uppercase;
@@ -775,20 +790,20 @@ section#cont05,
   margin: 0px 380px;
 }
 
-.footer-title-social .footer-logo {
+footer .footer-logo {
   padding-top: 25px;
 }
 
-.footer-title-social .info {
+footer .info {
   color: white;
   padding-top: 24%;
 }
 
-.footer-title-social .footer-phone {
+footer .phone {
   padding-top: 10px;
 }
 
-.footer-title-social .footer-email {
+footer .email {
   padding-top: 10px;
 }
 
@@ -863,7 +878,7 @@ section#cont05,
       font-size: 36px !important;
     }
 
-    .footer-title-social .footer-name-developer {
+    footer .nome-footer {
       margin: 0;
       margin-top: 30px;
       font-size: 14px !important;
