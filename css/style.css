@@ -13,7 +13,27 @@ body {
   font-family: "Open Sans", sans-serif;
   overflow-x: hidden !important;
 }
-
+.body .titulo:before {
+  background: #c49b56;
+}
+.body .nav-scroll {
+  background: #ffffff;
+}
+.body .nav-scroll .icon-bar {
+  color: #eee;
+}
+.body .nav-scroll .navbar-nav .nav-link {
+  color: rgb(0, 0, 0);
+}
+.body .nav-scroll .logo {
+  color: rgb(0, 0, 0);
+}
+.body .nav-scroll .logo:hover {
+  color: rgb(204, 190, 190);
+}
+.body .historia .historia-img:after {
+  background: #181818;
+}
 h1,
 h2,
 h3,
