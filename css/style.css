@@ -441,10 +441,11 @@ a:hover {
 }
 
 article h3 {
-  font-weight: 700;
+  font-weight: 800;
   font-size: 1.8rem;
   margin: 0 0 13px 0;
   text-transform: uppercase;
+  font-style: italic;
   text-align: center;
   margin-bottom: 60px;
 }
@@ -457,7 +458,7 @@ section {
 }
 
 section:nth-child(even) {
-  background: #e6dab7;
+  background: #f5f2eb;
 }
 
 
@@ -626,13 +627,6 @@ section .button_restaurant {
   background-attachment: fixed;
 }
 
-.title-cont .contact {
-  font-size: 40px;
-  color: #f0c986;
-  padding: 20px;
-  border-bottom: 1px solid #c49b56;
-}
-
 .contact .form input[type="text"],
 .contact .form input[type="email"],
 .contact .form textarea {
@@ -677,13 +671,16 @@ section .button_restaurant {
 }
 
 footer {
-  background-color: #596665;
+  font-family: 'Red Hat Display', sans-serif;
+  background-color: #f5f2eb;
   position: center;
   text-align: center;
 }
 
 footer h3 {
-  color: #fff;
+  font-family: 'Red Hat Display', sans-serif;
+  color: rgb(129, 126, 126);
+  letter-spacing: .5px;
   padding-top: 20%;
 }
 
@@ -698,11 +695,11 @@ footer .icons-redes-sociais a {
   font-size: 40px;
   padding: 0px 15px;
   padding-top: 20px;
-  color: white;
+  color: rgb(129, 126, 126);
 }
 
 footer .redes-sociais {
-  margin-top: 10px;
+  padding-top: 20px;
   color: white !important;
 }
 
@@ -710,7 +707,6 @@ footer.icons-redes-sociais a {
   font-size: 40px;
   padding: 0px 18px;
   padding-top: 20px;
-  color: white;
 }
 
 footer.chamada-info-rodape-main {
@@ -719,9 +715,9 @@ footer.chamada-info-rodape-main {
 }
 
 footer img {
-  width: 250px;
-  height: 90px;
-  margin-top: 70px;
+  width: 180px;
+  height: 130px;
+  margin-top: 100px;
 }
 
 footer .chamada-info-rodape-main {
@@ -734,20 +730,19 @@ footer .line-icons {
 }
 
 footer .line-icons i {
-  color: white;
   font-size: 18px;
 }
 
 footer .nome-footer {
   font-size: 14px;
-  color: #ffffff;
+  color: rgb(129, 126, 126);
   text-transform: uppercase;
   font-weight: 900;
   letter-spacing: 3px;
   position: center;
   text-align: center;
   border-bottom: 1px solid #fff;
-  padding: 20px 20px;
+  padding: 40px 20px;
   margin: 0px 380px;
 }
 
@@ -756,7 +751,7 @@ footer .footer-logo {
 }
 
 footer .info {
-  color: white;
+  color: rgb(129, 126, 126);
   padding-top: 24%;
 }
 
@@ -813,10 +808,6 @@ footer .email {
       font-size: 34px !important;
     }
 
-    section .title-cont .contact {
-      margin-top: 40px;
-    }
-
     section .contact {
       padding: 0px 20px;
     }
@@ -840,9 +831,8 @@ footer .email {
     }
 
     footer .nome-footer {
-      margin: 0;
-      margin-top: 30px;
       font-size: 14px !important;
     }
+    
   }
 }
