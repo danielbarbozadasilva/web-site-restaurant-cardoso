@@ -9,24 +9,26 @@ The objective of the training is to qualify for the development of responsive we
 > ## License
 - GPLv3 License
 <br/>
-<br/>
 
 > ## Principles
 
 * Web design responsive
 * One page
 * Mobile first
+<br/>
 
 > ## Technologies/methodologies
 * HTML 5
 * CSS 3
 * JavaScript
 * Bootstrap
+<br/>
 
 > ##  Advanced Javascript Elements
 * Animations
 * Effects
 * Fancybox
+<br/>
 
 > ##  Advanced Bootstrap Elements
 * Responsive Images
